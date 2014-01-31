@@ -10,6 +10,6 @@ package edu.wpi.first.wpilibj.templates;
  *
  * @author Tyler
  */
-public class Pnuematics {
+public class Pneumatics {
     
 }
