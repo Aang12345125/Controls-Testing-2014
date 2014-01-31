@@ -6,10 +6,15 @@
 
 package edu.wpi.first.wpilibj.templates;
 
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+
 /**
  *
  * @author Tyler
  */
 public class Drive {
-    
+    public static void test(){
+        SmartDashboard.putNumber("Left Drive: ", Init.leftDrive.get());
+        SmartDashboard.putNumber("Right Drive: ", Init.rightDrive.get());
+    }
 }
