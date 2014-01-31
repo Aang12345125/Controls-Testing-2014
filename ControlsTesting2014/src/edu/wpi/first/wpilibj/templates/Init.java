@@ -35,6 +35,7 @@ public class Init {
     public static Encoder leftDriveEncoder;
     public static DigitalInput ballReadyToLift; // What is this?
     public static Encoder shooterWinchEncoder;
+    public static Encoder pickUpSystemEncoder; 
     public static DigitalInput pickupDown;
     public static DigitalInput pickupUp;
     public static DigitalInput shooterLoaded;
@@ -79,6 +80,7 @@ public class Init {
 	leftDriveEncoder = new Encoder();
 	ballReadyToLift = new DigitalInput(); // What is this?
 	shooterWinchEncoder = new Encoder();
+        pickUpSystemEncoder = new Encoder();
 	pickupDown = new DigitalInput();
 	pickupUp = new DigitalInput();
 	shooterLoaded = new DigitalInput();
