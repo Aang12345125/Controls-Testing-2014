@@ -23,7 +23,8 @@ public class RobotTemplate extends IterativeRobot {
      * used for any initialization code.
      */
     public void robotInit() {
-
+	Init.init();
+	
     }
 
     /**
@@ -37,14 +38,16 @@ public class RobotTemplate extends IterativeRobot {
      * This function is called periodically during operator control
      */
     public void teleopPeriodic() {
-        
+        Drive.test();
+	Pickup.test();
+	Shoot.test();
     }
     
     /**
      * This function is called periodically during test mode
      */
     public void testPeriodic() {
-    
+	
     }
     
 }
